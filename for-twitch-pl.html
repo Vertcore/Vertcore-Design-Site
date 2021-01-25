@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Vertcore Design for Twitch</title>
+        <meta name="description" content="Motion graphics, logos, professional overlays for streamers and much more."/>
+        <meta name="keywords" content="słowa kluczowe"/>
+        <link rel="icon" href="img/favicontwitch.ico"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge, chrome=1"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="fortwitch_style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="menuscrolling.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/jquery.scrollTo.min.js"></script>
+        <!--Skrypt JS płynne przejścia nawigacja strony-->
+        <script>
+            jQuery(function($) {
+                //funkcja resetowanie scrolla
+                $.scrollTo(0);
+                //funkcja void
+                $('.li1').click(function() {$.scrollTo($('body'), 500);});
+                $('.li2').click(function() {$.scrollTo($('.alphacontainer6'), 500);});
+                $('.li3').click(function() {$.scrollTo($('.txtalphacontainer9'), 500);});
+                $('.li4').click(function() {$.scrollTo($('.footer'), 500);});
+                $('.cont1text3button').click(function() {$.scrollTo($('.footer'), 500);});
+                $('.lifunction1').click(function() {$.scrollTo($('.alphacontainer8'), 500);});
+                $('.lifunction2').click(function() {$.scrollTo($('.alphacontainer6'), 500);});
+                $('.lifunction3').click(function() {$.scrollTo($('.txtalphacontainer9'), 500);});
+                $('.lifunction21').click(function() {$.scrollTo($('.alphacontainer5'), 500);});
+                $('.lifunction22').click(function() {$.scrollTo($('.alphacontainer6'), 500);});
+                $('.lifunction23').click(function() {$.scrollTo($('.alphacontainer7'), 500);});
+                $('.li5').click(function() {$.scrollTo($('.footer'), 500);});
+                $('.scrollup').click(function() {$.scrollTo($('body'), 1000);}); } );
+                //widoczny przycisk podczas przewijania
+        </script>
+           <!--Skrypt JS hamburger bar (pokazywanie i chowanie)-->
+        <script>
+            function myFunction() {
+            var x = document.getElementById("ham1");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            //skrypt jQuery wyłączający animowane tło na urządzeniach mobilnych
+            }
+            if (window.mobilecheck()) {
+                $video.remove();
+                $('.video').remove(); }
+        </script>
+</head>
+    <body>
+        <div id="simplecookienotification_v01" style="display: block; z-index: 99999; min-height: 35px; width: 300px; position: fixed; background: #4d347c; text-align: center; color: #E7E7E7; bottom: 10px; left: 10px; border-radius: 15px;">
+            <div style="padding:10px; margin-left:15px; margin-right:15px; font-size:14px; font-weight:normal;">
+            <span id="simplecookienotification_v01_powiadomienie">Ta strona używa plików cookies.</span><span id="br_pc_title_html"><br></span>
+            <a id="simplecookienotification_v01_polityka" href="http://jakwylaczyccookie.pl/polityka-cookie/" style="color:#E7E7E7;">Polityka Prywatności</a><span id="br_pc2_title_html"> &nbsp;&nbsp; </span>
+            <div id="jwc_hr1" style="height: 10px; display: block;"></div>
+            <a id="okbutton" href="javascript:simplecookienotification_v01_create_cookie('simplecookienotification_v01',1,7);" style="position: relative; background: #E7E7E7; color:#4d347c; padding: 5px 15px; text-decoration: none; font-size: 12px; font-weight: normal; border: 0px solid #4d347c; border-radius: 5px;">ROZUMIEM</a><div id="jwc_hr2" style="height: 10px; display: block;"></div>
+            </div>
+            </div>
+            <script type="text/javascript">var galTable= new Array(); var galx = 0;</script><script type="text/javascript">function simplecookienotification_v01_create_cookie(name,value,days) { if (days) { var date = new Date(); date.setTime(date.getTime()+(days*24*60*60*1000)); var expires = "; expires="+date.toGMTString(); } else var expires = ""; document.cookie = name+"="+value+expires+"; path=/"; document.getElementById("simplecookienotification_v01").style.display = "none"; } function simplecookienotification_v01_read_cookie(name) { var nameEQ = name + "="; var ca = document.cookie.split(";"); for(var i=0;i < ca.length;i++) { var c = ca[i]; while (c.charAt(0)==" ") c = c.substring(1,c.length); if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length); }return null;}var simplecookienotification_v01_jest = simplecookienotification_v01_read_cookie("simplecookienotification_v01");if(simplecookienotification_v01_jest==1){ document.getElementById("simplecookienotification_v01").style.display = "none"; }</script>
+        
+        <video class="video" autoplay loop muted preload="auto">
+            <source src="video/1080pmp4good_twitch.mp4" type="video/mp4"/>
+            <source src="video/1080pwebmgood_twitch.webm" type="video/webm"/>
+        </video>
+        <!--Przycisk do powrotu na górę strony-->
+        <div><a class="scrollup" href="#"></a></div>
+        <!--Animowany Nagłówek TopMenu-->
+        <div id="header">
+            <div id="imgHeader">
+                <a href="for-twitch-pl"><img src="img/logoheader_twitch.png" id="img"/></a>
+            </div>
+            <div id="textHeader">
+                <span style="color:#e7e7e7;font-weight:800;">VERTCORE</span>
+                <span style="color:#e7e7e7;font-weight:410;">&nbsp;&nbsp;FOR TWITCH</span>
+            </div>
+            <div id="navigationBar">
+                <div id="navigationId">
+                    <li class="li"><a class="li1" >START</a></li>
+                    <li class="li"><a class="li2" >USŁUGI</a></li>
+                    <li class="li"><a class="li3" >STREAMERZY</a></li>
+                    <li class="li"><a class="li4" >KONTAKT</a></li>
+                    <li class="li"><a href="for-twitch-en">ENG</a></li>
+                </div>
+            </div> 
+            <a href="javascript:void(0);" id="hamburgerMenu" onclick="myFunction()">
+                <i class="icon-menu" style="color:#e7e7e7;"></i></a>
+                <div id="ham1">
+                    <ol>
+                        <p class="hamburgerLi"><a class="li1" >START</a></p>
+                        <p class="hamburgerLi"><a class="li2" >USŁUGI</a></p>
+                        <p class="hamburgerLi"><a class="li3" >STREAMERZY</a></p>
+                        <p class="hamburgerLi"><a class="li4" >KONTAKT</a></p>
+                        <p class="hamburgerLi"><a href="for-twitch-en">ENG</a></p>
+                    </ol>
+                </div>   
+    </div>
+    <div class="container-fluid" style="margin:0 !important;">
+        <div class="row">
+            <div class="alphacontainer1">
+                <div class="txtalphacontainer1">Wszystko dla streamerów.</br><span class="cont1text2"></span></div></br></br></br>
+                <div class="cont1text3button">
+                    <div class="cont1text3buttonstyle">ZAPISZ SIĘ!</div>
+                </div>
+            </div>
+                <div class="alphacontainer2">
+                        <div class="col-sm-12">    
+                            <div class="alphacontainer2circle">
+                                <i class="icon-picture"></i></div>
+                            <div class="alphacontainer2txt">NOWOCZESNE WZORNICTWO</div>
+                        </div>
+                        <div class="col-sm-12">     
+                            <div class="alphacontainer2circle">
+                                <i class="icon-clock"></i></div>
+                            <div class="alphacontainer2txt">SZYBKI CZAS REALIZACJI</div>
+                        </div>
+                        <div class="col-sm-12">      
+                            <div class="alphacontainer2circle">
+                                <i class="icon-dollar"></i></div>
+                            <div class="alphacontainer2txt">PRZYSTĘPNE CENY DLA KAŻDEGO</div> 
+                        </div>   
+                        <div class="col-sm-12">      
+                            <div class="alphacontainer2circle">
+                                <i class="icon-users"></i></div>
+                            <div class="alphacontainer2txt">PROFESJONALNA OBSŁUGA KLIENTA</div>  
+                        </div>
+                </div>
+            <div class="alphacontainer6">
+                <div class="headeralphacontainer6">USŁUGI REALIZOWANE PRZEZ VERTCORE DESIGN FOR TWITCH</div></br></br>
+                    <ul>
+            <li2><p class="txtalphacontainer6">Statyczne grafiki na Twitch (baner, panele, plansza "offline").</p></li>
+            <li2><p class="txtalphacontainer6">Sceny do OBS Studio, w tym ruchome grafiki i animacje.</p></li>
+            <li2><p class="txtalphacontainer6">Niepowtarzalne i unikatowe powiadomienia, popularnie nazywane alertami.</p></li>
+            <li2><p class="txtalphacontainer6">Edycja i sklejanie klipów Twitch oraz umieszczanie ich na kanał YouTube.</p></li>
+                    </ul>
+                    <div class="smalltxtalphacontainer6">Do realizacji wyżej wymienionych usług wykorzystujemy profesionalne oprogramowanie firmy <span style="font-weight:700;color:#181818;">Adobe&reg;</span>, w tym <span style="font-weight:700;color:#181818;">Adobe&reg; Photoshop</span>, <span style="font-weight:700;color: #181818;">Adobe&reg; Illustrator</span>, <span style="font-weight:700;color:#181818;">Adobe&reg; After Effects</span> i <span style="font-weight:700;color:#181818;">Adobe&reg; Media Encoder</span> oraz szeroki pakiet firmy <span style="font-weight:700;color:#181818;">StreamElements.</div>
+            </div>
+            <div class="alphacontainer8 txtalphacontainer1" style="padding-top:260px !important;">Etapy produkcji:</div>
+        </div>
+    </div>
+        <div class="container-fluid" style="margin:0 !important;">
+            <div class="row">
+                <div class="stage1">
+                    <div class="col-lg-4 stage1-2">
+                        <div class="circle-stage">1.</div>
+                        <div class="stageimg1-2"></div>
+                    </div>
+                    <div class="col-lg-8 stage1-1">
+                        <div class="stagetxt1-1" >Wybór odpowiednich kolorów z palety barw Adobe&reg; (link poniżej) oraz uzgodnienie ogólnego designu.</div>
+                    </div>
+                    <span style="clear:both !important;"></span>
+                    <div class="col-lg-4 stage2-2">
+                        <div class="circle-stage2">2.</div>
+                        <div class="stageimg2-2"></div>
+                    </div>
+                    <div class="col-lg-8 stage2-1">
+                        <div class="stagetxt2-1" >Stworzenie i zaprojektowanie animacji, elementów statycznych oraz późniejszy ich compositing i rendering.</div>
+                    </div>
+                    <span style="clear:both !important;"></span>
+                    <div class="col-lg-4 stage3-2">
+                        <div class="circle-stage3">3.</div>
+                        <div class="stageimg3-2"></div>
+                    </div>
+                    <div class="col-lg-8 stage3-1">
+                        <div class="stagetxt3-1" >Finalna prezentacja wersji "preview", ostateczne poprawki, płatność i wysyłka do klienta.</div>
+                    </div>
+                </div><span style="clear:both !important;"></span>
+                <div class="alphacontainer7">
+                    <div class="txtalphacontainer7">Jeśli masz problem z ustawieniem powiadomień w konfiguratorze StreamElements nie martw się, pomożemy!</div>
+                </div>
+            </div>        
+        </div>              
+        <div class="alphacontainer9">
+            <div class="txtalphacontainer9">Dołącz już dzisiaj do najlepszych, którzy wybrali usługi Vertcore Design for Twitch!</div>
+        </div>
+        <div class="container-fluid" style="margin:0 !important;">
+            <div class="row row justify-content-center">            
+                        <a target="_blank" href="https://www.twitch.tv/vidmowskyy" class="col-lg-4 trust1-1" style="background-image: url(img/vidmowskyy.png);background-position:top center;">
+                            <p class="trusttxt">Vidmo</br>wskyy</p>
+                        </a>
+                        <a target="_blank" href="https://www.twitch.tv/terimera" class="col-lg-4 trust1-1" style="background-image: url(img/terimera.png);background-position:top center;">
+                            <p class="trusttxt">Teri</br>mera</p>
+                        </a>
+                        <a target="_blank" href="https://www.twitch.tv/doockson" class="col-lg-4 trust1-1" style="background-image: url(img/doockson.png);background-position:top center;">
+                            <p class="trusttxt">Doock</br>son</p>
+                        </a>
+                        <a target="_blank" href="https://www.twitch.tv/kottare" class="col-lg-4 trust1-1" style="background-image: url(img/kottare.png);background-position:top center;">
+                            <p class="trusttxt">Kott</br>are</p>
+                        </a>
+                        <a target="_blank" href="#" class="col-lg-4 trust1-1">
+                            <p class="trusttxt"></p>
+                        </a>
+                        <a target="_blank" href="#" class="col-lg-4 trust1-1">
+                            <p class="trusttxt"></p>
+                        </a>
+                        <a target="_blank" href="#" class="col-lg-4 trust1-1">
+                            <p class="trusttxt"></p>
+                        </a>
+                        <a target="_blank" href="#" class="col-lg-4 trust1-1">
+                            <p class="trusttxt"></p>
+                        </a>
+                        <a target="_blank" href="#" class="col-lg-4 trust1-1">
+                            <p class="trusttxt"></p>
+                        </a>
+                </div>
+            </div>
+            <div class="alphacontainer10">
+                <div class="txtalphacontainer10"><a class="txtalphacontainer10" target="_blank" href="https://www.facebook.com/Vertcore-Design-112156290571750">Nasze dotychczasowe realizacje.</a></div>
+            </div>
+            <div class="alphacontainer11">
+                <div class="txtalphacontainer11"><a target="_blank" href ="https://color.adobe.com/pl/create/color-wheel"><span style="font-weight:700;">Adobe&reg;</span> Color wheel, a color palette generator.</a></div>
+            </div>       
+            <div class="alphacontainer7">
+                <div class="txtalphacontainer7">Streamowanie.&nbsp;&nbsp;&nbsp;&nbsp;Z nami to proste.</div>
+            </div>    
+            <div class="container-fluid" style="margin:0 !important;">
+                <div class="row">
+            <div class="footer">
+                <div class="col-sm-12">
+                    <div class="footertxtcontact"><p style="font-weight:900;">NAWIGACJA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <ul>
+                            <li><p class="liclass lifunction2">Usługi</p></li>
+                            <li><p class="liclass lifunction1" class="purplecolor">Realizacja</p></li>
+                            <li><p class="liclass lifunction3" class="bluecolor">Streamerzy</p></li>
+                        </ul>
+                    </div>
+                <div class="col-sm-12">
+                    <div class="footertxtcontact"><p style="font-weight:900;">DZIAŁY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <ul>
+                            <li><p class="lifunction21"></p><a class="liclass" target="_blank" href="main-pl">Vertcore Design</a></p></li>
+                            <li><p class="lifunction21"></p><a class="liclass purplecolor" href="for-twitch-pl">Vertcore Design for Twitch</a></p></li>
+                            <li><p class="lifunction21"></p><a class="liclass bluecolor" target="_blank" href="digititles-imagine-pl">Digititles Imagine</a></p></li>
+                        </ul>
+                </div>
+            </div>
+                <div class="col-sm-12">
+                    <div class="footertxtcontact"><p style="font-weight:900;">KONTAKT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <ul>
+                            <li><p class="liclass">vertcore@vertcore-design.pl</p></li>
+                            <li><p class="liclass purplecolor">for.twitch@vertcore-design.pl</p></li>
+                            <li><p class="liclass bluecolor">digititles.imagine@vertcore-design.pl</p></li>
+                        </ul>
+                </div>
+            </div>
+                <div class="col-sm-12">
+        <div class="footertxtcontact"><p style="font-weight:900;">OBSERWUJ NAS!</p>
+            <p class="iconfotterclass"><a href="https://www.facebook.com/Vertcore-Design-112156290571750" target="_blank" class="icon-facebook-circled"></a></p>
+            <p class="iconfotterclass"><a href="https://vimeo.com/digititlesimagine" target="_blank" class="icon-vimeo-circled"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-pinterest-circled"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-twitter-circled"></i></a>
+            <p style="clear:both;" class="iconfotterclass"><a href="https://www.youtube.com/channel/UC_AMnvvE7NQut0iEtpaf0jw" target="_blank" class="icon-youtube-play"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-github-circled"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-snapchat"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-instagram"></a></p>
+        </div>
+            </div>
+                </div>
+        </div>
+            <div class="copyrightfooter">
+                <div class="txtcopyrightfooter">&copy 2019-2020 by Miłosz Gilga (Vertcore Design).&nbsp;&nbsp;All Rights Reserved.</br>Motion footage belongs to
+                    <a style="text-decoration:none;color:#c4c4c4" target="_blank" href="https://www.youtube.com/MG1010">MG1010</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Icons provided by
+                    <a style="text-decoration:none;color:#c4c4c4" target="_blank" href="https://fontello.com/">Fontello.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
