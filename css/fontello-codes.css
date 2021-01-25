@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+ 
+.icon-clock:before { content: '\23f2'; } /* '⏲' */
+.icon-edit:before { content: '\270d'; } /* '✍' */
+.icon-users-1:before { content: '\e07c'; } /* '' */
+.icon-menu:before { content: '\e0fe'; } /* '' */
+.icon-videocam:before { content: '\e115'; } /* '' */
+.icon-terminal:before { content: '\e7ac'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-html5:before { content: '\f13b'; } /* '' */
+.icon-dollar:before { content: '\f155'; } /* '' */
+.icon-youtube-play:before { content: '\f16a'; } /* '' */
+.icon-tumblr:before { content: '\f173'; } /* '' */
+.icon-paypal:before { content: '\f1ed'; } /* '' */
+.icon-vimeo:before { content: '\f27d'; } /* '' */
+.icon-snapchat-ghost:before { content: '\f2ac'; } /* '' */
+.icon-vimeo-circled:before { content: '\f307'; } /* '' */
+.icon-twitter-circled:before { content: '\f30a'; } /* '' */
+.icon-facebook-circled:before { content: '\f30d'; } /* '' */
+.icon-pinterest-circled:before { content: '\f313'; } /* '' */
+.icon-paypal-1:before { content: '\f342'; } /* '' */
+.icon-picture:before { content: '🌄'; } /* '\1f304' */
+.icon-video:before { content: '🎬'; } /* '\1f3ac' */
+.icon-user:before { content: '👤'; } /* '\1f464' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
