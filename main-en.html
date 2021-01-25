@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Vertcore Design</title>
+        <meta name="description" content="Motion graphics, logos, professional overlays for streamers and much more."/>
+        <meta name="keywords" content="słowa kluczowe"/>
+        <link rel="icon" href="img/faviconiconamain.ico"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge, chrome=1"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="menuscrolling.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/jquery.scrollTo.min.js"></script>
+        
+        <!--Skrypt JS płynne przejścia nawigacja strony-->
+        <script>
+            jQuery(function($) {
+                //funkcja resetowanie scrolla
+                $.scrollTo(0);
+                //funkcja void
+                $('.li1').click(function() {$.scrollTo($('body'), 500);});
+                $('.li2').click(function() {$.scrollTo($('.alphacontainer3'), 500);});
+                $('.li3').click(function() {$.scrollTo($('.alphacontainer5'), 500);});
+                $('.li4').click(function() {$.scrollTo($('.footer'), 500);});
+                $('.cont1text3button').click(function() {$.scrollTo($('.footer'), 500);});
+                $('.lifunction1').click(function() {$.scrollTo($('.alphacontainer3'), 500);});
+                $('.lifunction2').click(function() {$.scrollTo($('.alphacontainer5'), 500);});
+                $('.lifunction3').click(function() {$.scrollTo($('.footer'), 500);});
+                $('.lifunction21').click(function() {$.scrollTo($('.alphacontainer5'), 500);});
+                $('.lifunction22').click(function() {$.scrollTo($('.alphacontainer6'), 500);});
+                $('.lifunction23').click(function() {$.scrollTo($('.alphacontainer7'), 500);});
+                $('.li5').click(function() {$.scrollTo($('.footer'), 500);});
+                $('.scrollup').click(function() {$.scrollTo($('body'), 1000);}); } );
+                //widoczny przycisk podczas przewijania
+        </script>
+           <!--Skrypt JS hamburger bar (pokazywanie i chowanie)-->
+        <script>
+            function myFunction() {
+            var x = document.getElementById("ham1");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            //skrypt jQuery wyłączający animowane tło na urządzeniach mobilnych
+            if (window.mobilecheck()) {
+                $('.video').remove(); }
+        </script>
+</head>
+    <body>
+        <div id="simplecookienotification_v01" style="display: block; z-index: 99999; min-height: 35px; width: 300px; position: fixed; background: #e7e7e7; text-align: center; color: #181818; bottom: 10px; left: 10px; border-radius: 15px;">
+            <div style="padding:10px; margin-left:15px; margin-right:15px; font-size:14px; font-weight:normal;">
+            <span id="simplecookienotification_v01_powiadomienie">This website uses cookies.</span><span id="br_pc_title_html"><br></span>
+            <a id="simplecookienotification_v01_polityka" href="https://ec.europa.eu/info/cookies_en" style="color:#181818;">Privacy Policy</a><span id="br_pc2_title_html"> &nbsp;&nbsp; </span>
+            <div id="jwc_hr1" style="height: 10px; display: block;"></div>
+            <a id="okbutton" href="javascript:simplecookienotification_v01_create_cookie('simplecookienotification_v01',1,7);" style="position: relative; background: #181818; color:#e7e7e7; padding: 5px 15px; text-decoration: none; font-size: 12px; font-weight: normal; border: 0px solid #e7e7e7; border-radius: 5px;">I UNDERSTAND</a><div id="jwc_hr2" style="height: 10px; display: block;"></div>
+            </div>
+            </div>
+            <script type="text/javascript">var galTable= new Array(); var galx = 0;</script><script type="text/javascript">function simplecookienotification_v01_create_cookie(name,value,days) { if (days) { var date = new Date(); date.setTime(date.getTime()+(days*24*60*60*1000)); var expires = "; expires="+date.toGMTString(); } else var expires = ""; document.cookie = name+"="+value+expires+"; path=/"; document.getElementById("simplecookienotification_v01").style.display = "none"; } function simplecookienotification_v01_read_cookie(name) { var nameEQ = name + "="; var ca = document.cookie.split(";"); for(var i=0;i < ca.length;i++) { var c = ca[i]; while (c.charAt(0)==" ") c = c.substring(1,c.length); if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length); }return null;}var simplecookienotification_v01_jest = simplecookienotification_v01_read_cookie("simplecookienotification_v01");if(simplecookienotification_v01_jest==1){ document.getElementById("simplecookienotification_v01").style.display = "none"; }</script>
+        
+        <video class="video" autoplay loop muted preload="auto">
+            <source src="video/1080pmp4good.mp4" type="video/mp4"/>
+            <source src="video/1080pwebmgood.webm" type="video/webm"/>
+        </video>
+        <!--Przycisk do powrotu na górę strony-->
+        <div><a class="scrollup" href="#"></a></div>
+        <!--Animowany Nagłówek TopMenu-->
+        <div id="header">
+            <div id="imgHeader">
+                <a href="main-en"><img src="img/logoheader.png" id="img"/></a>
+            </div>
+            <div id="textHeader">
+                <span style="color:#181818;font-weight:800;">VERTCORE</span>
+                <span style="color:#181818;font-weight:410;">DESIGN</span>
+            </div>
+            <div id="navigationBar">
+                <div id="navigationId">
+                    <li class="li"><a class="li1 cursor" >START</a></li>
+                    <li class="li"><a class="li2 cursor" >ABOUT US</a></li>
+                    <li class="li"><a class="li3 cursor" >SERVICES</a></li>
+                    <li class="li"><a class="li4 cursor" >PORTFOLIO</a></li>
+                    <li class="li"><a class="li5 cursor" >CONTACT</a></li>
+                    <li class="li"><a href="main-pl">PL</a></li>
+                </div>
+            </div> 
+            <a href="javascript:void(0);" id="hamburgerMenu" onclick="myFunction()">
+                <i class="icon-menu" style="color:#181818;"></i></a>
+                <div id="ham1">
+                    <ol>
+                        <p class="hamburgerLi"><a class="li1 cursor" >START</a></p>
+                        <p class="hamburgerLi"><a class="li2 cursor" >ABOUT US</a></p>
+                        <p class="hamburgerLi"><a class="li3 cursor" >SERVICES</a></p>
+                        <p class="hamburgerLi"><a class="li4 cursor" >PORTFOLIO</a></p>
+                        <p class="hamburgerLi"><a class="li5 cursor" >CONTACT</a></p>
+                        <p class="hamburgerLi"><a href="main-pl">PL</a></p>
+                    </ol>
+                </div>   
+    </div>
+    <div class="container-fluid" style="margin:0 !important;">
+        <div class="row">
+            <div class="alphacontainer1">
+                <div class="txtalphacontainer1">Comprehensive graphic services.</br><span class="cont1text2"></span></div></br></br></br>
+                <div class="cont1text3button">
+                    <div class="cont1text3buttonstyle">SIGN IN!</div>
+                </div>
+            </div>
+                <div class="alphacontainer2">
+                        <div class="col-sm-12">    
+                            <div class="alphacontainer2circle">
+                                <i class="icon-picture" style="color:#e7e7e7;"></i></div>
+                            <div class="alphacontainer2txt">MODERN DESIGN</div>
+                        </div>
+                        <div class="col-sm-12">     
+                            <div class="alphacontainer2circle">
+                                <i class="icon-clock" style="color:#e7e7e7;"></i></div>
+                            <div class="alphacontainer2txt">FAST-TRACK EXECUTION TIME</div>
+                        </div>
+                        <div class="col-sm-12">      
+                            <div class="alphacontainer2circle">
+                                <i class="icon-dollar" style="color:#e7e7e7;"></i></div>
+                            <div class="alphacontainer2txt">AFFORDABLE PRICES FOR EVERYONE</div> 
+                        </div>   
+                        <div class="col-sm-12">      
+                            <div class="alphacontainer2circle">
+                                <i class="icon-users" style="color:#e7e7e7;"></i></div>
+                            <div class="alphacontainer2txt">PROFESSIONAL CUSTOMER SERVICE</div>  
+                        </div>
+                </div>
+            <div class="alphacontainer3">
+                <div class="headeralphacontainer3">ABOUT US...</div>
+                <div class="txtalphacontainer3">We are a young polish company, but a thriving one, with a great willingness to develop and self-improvement with every subsequent realization. We try to create modern, minimalist and aesthetically pleasing designs, matching the trend of the time.</br></br>Our creative agency is divided into three groups:</div>
+                <div class="group1">
+                    <p class="headergroup1"><a href="main-en">VERTCORE DESIGN</a></p>
+                    <p class="group1txt">The main department is dedicated to creating websites, 2D graphics (including motion design) and non-linear editing of films, music videos and series.</p>
+                    <p class="headergroup2"><a target="_blank"  href="for-twitch-en">VERTCORE DESIGN FOR TWITCH</a></p>
+                    <p class="group1txt">The department comprehensively supplies streamers on the Twitch. tv platform with graphical interfaces.</p>
+                    <p class="headergroup3"><a target="_blank" href="digititles-imagine-en">DIGITITLES IMAGINE</a></p>
+                    <p class="group1txt">The department supplies the creators with the opening and end credits for feature films and series.</p></br></br></br></br>
+                </div>
+            </div>
+            <div class="alphacontainer4 txtalphacontainer1" style="padding-top:240px !important;">Modernity.</br>Simplicity.</br>Beauty.</div>
+            <div class="alphacontainer5">
+                <div class="headeralphacontainer5">SERVICES PROVIDED BY VERTCORE DESIGN</div></br></br>
+                    <ul>
+            <li2><p class="txtalphacontainer5">2D computer graphics.</p></li>
+            <li2><p class="txtalphacontainer5">2D motion design.</p></li>
+            <li2><p class="txtalphacontainer5">Responsive websites from scratch (layout, HTML5 and CSS3 code) compliant with W3C standards using the latest technologies including jQuery, JavaScript with AJAX and Frameworks.<d style="color:#812828"> (soon)</d>.</p></li>
+            <li2><p class="txtalphacontainer5">Non-linear video editing up to native 4K resolution, including cutting, simple effects (mask effect, cameratracking) and preliminary color grading.</p></li>
+                    </ul>
+                    <div class="smalltxtalphacontainer5">To realize the above mentioned services we use professional software of the company <span style="font-weight:700;">Adobe&reg;</span>, including <span style="font-weight:700;">Adobe&reg; Photoshop</span>, <span style="font-weight:700;">Adobe&reg; Illustrator</span>, <span style="font-weight:700;">Adobe&reg; Premiere Pro</span>, <span style="font-weight:700;">Adobe&reg; After Effects</span> with <span style="font-weight:700;">Adobe&reg; Media Encoder</span> and company software <span style="font-weight:700;">Microsoft&reg;</span> including <span style="font-weight:700;">Visual Studio Code</span>.</div>
+                <div class="hotbutton1"><a href="main-en">CHECK</a></div>
+            </div>
+            <div class="alphacontainer6">
+                <div class="headeralphacontainer6">SERVICES PROVIDED BY VERTCORE DESIGN FOR TWITCH</div></br></br>
+                    <ul>
+            <li2><p class="txtalphacontainer6">Static graphics on Twitch (banner, panels, offline board).</p></li>
+            <li2><p class="txtalphacontainer6">Scenes for OBS Studio, including motion graphics and animations.</p></li>
+            <li2><p class="txtalphacontainer6">Unique animated alerts.</p></li>
+            <li2><p class="txtalphacontainer6">Editing Twitch clips and upload them to YouTube.</p></li>
+                    </ul>
+                    <div class="smalltxtalphacontainer6">To realize the above mentioned services we use professional software of the company <span style="font-weight:700;color:#e0b527;">Adobe&reg;</span>, including <span style="font-weight:700;color:#e0b527;">Adobe&reg; Photoshop</span>, <span style="font-weight:700;color:#e0b527;">Adobe&reg; Illustrator</span>, <span style="font-weight:700;color:#e0b527;">Adobe&reg; After Effects</span> with <span style="font-weight:700;color:#e0b527;">Adobe&reg; Media Encoder</span> and the company's extensive package <span style="font-weight:700;color:#e0b527;">StreamElements.</div>
+                <div class="hotbutton2"><a target="_blank" href="for-twitch-en">CHECK</a></div>
+            </div>
+            <div class="alphacontainer7">
+                <div class="headeralphacontainer7">SERVICES PROVIDED BY DIGITITLES IMAGINE</div></br></br>
+                    <ul>
+            <li2><p class="txtalphacontainer7">Designing and creating opening title sequences.</p></li>
+            <li2><p class="txtalphacontainer7">Creating and including subtitles.</p></li>
+            <li2><p class="txtalphacontainer7">Designing and creating end credits/end cards sequences.</p></li>
+                    </ul>
+                    <div class="smalltxtalphacontainer7">To realize the above mentioned services we use professional software of the company <span style="font-weight:700;color:#81a3ad;">Adobe&reg;</span>, including <span style="font-weight:700;color:#81a3ad;">Adobe&reg; Photoshop</span>, <span style="font-weight:700;color:#81a3ad;">Adobe&reg; After Effects</span> with <span style="font-weight:700;color:#81a3ad;">Adobe&reg; Media Encoder</span> and the company's extensive package <span style="font-weight:700;color:#81a3ad;">New BlueFX</span> including a professional tool for the creation of end credits sequences<span style="font-weight:700;color:#81a3ad;"> Titler Pro 7</span>.</div>
+                <div class="hotbutton3"><a target="_blank" href="digititles-imagine-en">CHECK</a></div>
+            </div>
+            <div class="alphacontainer8 txtalphacontainer1" style="padding-top:260px !important;">You will find the portfolio on the subpages of the individual departments.</div>
+            <div class="footer">
+                <div class="col-sm-12">
+                    <div class="footertxtcontact"><p style="font-weight:900;">NAVIGATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <ul>
+                            <li><p class="liclass lifunction1">About Us</p></li>
+                            <li><p class="liclass lifunction2" class="purplecolor">Services</p></li>
+                            <li><p class="liclass lifunction3" class="bluecolor">Portfolio</p></li>
+                        </ul>
+                    </div>
+                <div class="col-sm-12">
+                    <div class="footertxtcontact"><p style="font-weight:900;">DEPARTMENTS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <ul>
+                            <li><p class="lifunction21"></p><a class="liclass" href="main-en">Vertcore Design</a></p></li>
+                            <li><p class="lifunction21"></p><a class="liclass purplecolor" target="_blank" href="for-twitch-en">Vertcore Design for Twitch</a></p></li>
+                            <li><p class="lifunction21"></p><a class="liclass bluecolor" target="_blank" href="digititles-imagine-en">Digititles Imagine</a></p></li>
+                        </ul>
+                </div>
+            </div>
+                <div class="col-sm-12">
+                    <div class="footertxtcontact"><p style="font-weight:900;">CONTACT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <ul>
+                            <li><p class="liclass">vertcore@vertcore-design.pl</p></li>
+                            <li><p class="liclass purplecolor">for.twitch@vertcore-design.pl</p></li>
+                            <li><p class="liclass bluecolor">digititles.imagine@vertcore-design.pl</p></li>
+                        </ul>
+                </div>
+            </div>
+                <div class="col-sm-12">
+        <div class="footertxtcontact"><p style="font-weight:900;">FOLLOW US!</p>
+            <p class="iconfotterclass"><a href="https://www.facebook.com/Vertcore-Design-112156290571750" target="_blank" class="icon-facebook-circled"></a></p>
+            <p class="iconfotterclass"><a href="https://vimeo.com/digititlesimagine" target="_blank" class="icon-vimeo-circled"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-pinterest-circled"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-twitter-circled"></i></a>
+            <p style="clear:both;" class="iconfotterclass"><a href="https://www.youtube.com/channel/UC_AMnvvE7NQut0iEtpaf0jw" target="_blank" class="icon-youtube-play"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-github-circled"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-snapchat"></a></p>
+            <p class="iconfotterclass"><a href="#" target="_blank" class="icon-instagram"></a></p>
+        </div>
+            </div>
+                </div>
+        </div>
+            <div class="copyrightfooter">
+                <div class="txtcopyrightfooter">&copy 2019-2020 by Milosz Gilga (Vertcore Design).&nbsp;&nbsp;All Rights Reserved.</br>Motion footage belongs to
+                    <a style="text-decoration:none;color:#c4c4c4" target="_blank" href="https://www.youtube.com/MG1010">MG1010</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Icons provided by
+                    <a style="text-decoration:none;color:#c4c4c4" target="_blank" href="https://fontello.com/">Fontello.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
